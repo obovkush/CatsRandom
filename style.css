@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: none;
+    overflow: hidden;
+}
+
+/* #imgBox {
+
+} */
+
+#fetchButton {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#cursor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    box-sizing: border-box;
+    transition: 0, 1s;
+    transform: translate(-50%, -50%);
+}
